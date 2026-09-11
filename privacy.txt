@@ -5,7 +5,7 @@ Contact: ilblogdicristiangallo@gmail.com
 Last updated: March 2026
 
 1. What OpenWebSDR is
-OpenWebSDR is an Android client for OpenWebRX receivers. You enter the address of your own SDR server (DDNS or IP). We do not operate an OpenWebSDR cloud account and we do not run our own backend for radio data.
+OpenWebSDR is an Android client for OpenWebRX receivers, developed by Cristian Gallo. You enter the address of your own SDR server (DDNS or IP). We do not operate an OpenWebSDR cloud account and we do not run our own backend for radio data. The app does not let you create an OpenWebSDR account.
 
 2. Data stored on the device
 The following stay on your phone only:
@@ -17,7 +17,7 @@ The following stay on your phone only:
 This data is not sent to Cristian Gallo.
 
 3. Network connections
-• The app connects to the SDR servers you choose (WebSocket / HTTP or HTTPS). Those servers have their own policies.
+• The app connects to the SDR servers you choose (WebSocket / HTTP or HTTPS). Those servers have their own policies. Credentials and chat you send go only to the server you configured. If you enter a host:port without TLS, the connection may not be encrypted.
 • “OpenWebSDR Pro” purchases (unlimited servers) go through Google Play Billing. We do not receive your card details or full payment method.
 
 4. Data processed by Google
@@ -31,7 +31,7 @@ https://policies.google.com/privacy
 • Storage (Android 12 and older): save recordings
 • Optional battery-optimization exemption: so listening is not interrupted
 
-The app does not require an OpenWebSDR account. Any username/password belong to your OpenWebRX server and stay on the device.
+Any username/password belong to your OpenWebRX server and stay on the device until you delete that server or uninstall the app.
 
 6. In-app purchases
 Product: openwebsdr_pro (one-time purchase). It unlocks unlimited servers in the same app. Handled by Google Play.
@@ -42,10 +42,28 @@ This app is not directed at children under 13 and is not intended for a child au
 8. Sharing and sale
 We do not sell personal data. We do not share SDR credentials with third parties. Third parties: Google Play (distribution and payments) and the SDR servers you configure.
 
-9. Retention and deletion
-Local data is deleted when you uninstall the app or remove servers from the list. Recordings in Download/OWRX remain until you delete those files.
-Requests: ilblogdicristiangallo@gmail.com
+9. Retention
+Local data remains on the device until you delete it or uninstall the app. We do not keep a copy on our servers. Recordings in Download/OWRX remain until you delete those files.
 
-10. Changes
+10. Delete your data — OpenWebSDR (developer: Cristian Gallo)
+
+OpenWebSDR does not create accounts and does not store your data on our servers.
+
+How to request / delete your data
+1. In the app: open Servers and delete each saved server (name, address, credentials).
+2. Delete any recordings you made (folder Download/OWRX on the device).
+3. Uninstall OpenWebSDR to remove remaining local app data.
+4. Email ilblogdicristiangallo@gmail.com if you need help with a deletion request.
+
+What is deleted
+• Server list, credentials, favorites and preferences stored on the phone (when you delete them or uninstall).
+• Recordings you delete from Download/OWRX.
+
+What is not controlled by us / may be retained
+• Chat and data on the OpenWebRX server you connected to (ask that server’s operator).
+• OpenWebSDR Pro purchase records (handled by Google Play / your Google account).
+
+We do not keep a copy of your SDR passwords or recordings after you remove them from the device.
+
+11. Changes
 Updates to this policy will be posted on this page.
-
