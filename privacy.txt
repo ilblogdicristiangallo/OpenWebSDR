@@ -1,0 +1,52 @@
+Privacy Policy – OpenWebSDR
+
+Last updated: 10 September 2026
+
+Data controller
+Cristian Gallo
+Email: ilblogdicristiangallo@gmail.com
+
+1. What the app is
+OpenWebSDR is a client for OpenWebRX SDR receivers. It connects to servers you add, lets you listen and (if you choose) record audio, manage favorites, and scan frequencies.
+
+2. Data we process
+All data stays on your device, except what is sent to servers you choose.
+
+Stored on the phone (local storage):
+
+server list (address, username, password, optional admin key)
+favorites, receiver state, settings
+audio files if you press REC
+scanner hit history
+We do not create an account on our servers. We do not sell data. We do not use ads or third-party trackers.
+
+3. Network connections
+The app only connects to OpenWebRX / HTTP servers you configure (audio, spectrum, chat, radio commands) and, if you enter credentials, to that server’s admin panel.
+
+Whoever runs that server sees what OpenWebRX provides. Their privacy policy is theirs, not ours.
+
+4. Audio
+Recording starts only if you press REC or enable VOX. Files stay on the device. We do not upload them to the cloud.
+
+5. Location
+The app does not use the phone GPS. Any map/positions (e.g. APRS) come from radio data decoded by the server, not from your location.
+
+6. Android permissions
+
+Network: connect to servers
+Notifications: scanner alert, if enabled
+Storage: recordings and favorites
+Audio: radio stream only if you use REC, not the environment microphone
+Check permissions in Android Settings and on the Play listing.
+
+7. Retention and deletion
+Data stays as long as you keep the app. Uninstalling deletes it (except files you copied elsewhere). You can delete favorites and servers in the app.
+
+8. Children
+The app is not intended for children under 13.
+
+9. Changes
+Updates to this policy will be posted at this same URL with a new date.
+
+10. Contact
+ilblogdicristiangallo@gmail.com
